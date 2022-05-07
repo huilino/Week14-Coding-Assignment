@@ -5,9 +5,82 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(37, 36, 105);
+  background-image: linear-gradient(to bottom left ,rgb(116, 115, 122), rgb(32, 32, 118))
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  text-align: center;
+  font-size : 50px;
+  padding:15px;
+  color:rgb(6, 23, 38);
+ 
+}
+
+.myheader{
+  padding:15px;
+  margin-top:20px;
+  margin-bottom:15px;
+}
+
+.myrating{
+  color:rgb(137, 137, 170);
+  font-size:20px;
+  margin:0px;
+}
+
+.mymovie{
+  border-radius: 10px;
+  border: 5px solid rgb(2, 16, 28);
+  margin:15px;
+  padding:15px;
+}
+
+.mybutton{
+  background-color:rgb(39, 45, 57);
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.myreview{
+  background-color: rgb(212, 212, 232);
+  margin:8px;
+  
+}
+
+.mysummary{
+  color:aliceblue;
+  font-size:20px;
+  margin-top: 10px;;
+}
+
+.mytitle{
+  font-size:20px;
+}
+
+.mylabel{
+  color:rgb(137, 137, 170); 
+  font-size:20px;
+  padding-bottom :10px;
+
+}
+
+input[type="radio"]{
+  display:none;
+} 
+
+.reviewlist{
+  border-radius: 8px;
+  border : 2px solid rgb(16, 15, 15);
+}
+
+
+
+
+
